@@ -1,4 +1,36 @@
 # Dit is een basis installatie script
+# Installatie van alle progs
+sudo dnf install hyprland \
+waybar \
+dunst \
+kitty \
+wl-clipboard \
+grim \
+slurp \
+firefox \
+fuzzel \
+swaylock \
+swayidle \
+xdg-desktop-portal-hyprland \
+xdg-desktop-portal-gtk \
+network-manager-applet \
+fira-code-fonts \
+jetbrains-mono-fonts-all \
+papirus-icon-theme \
+thunar \
+thunar-archive-plugin \
+thunar-media-tags-plugin \
+thunar-volman \
+pactl \
+brightnessctl \
+swaybg \
+fastfetch \
+speedtest-cli \
+vlc \
+qutebrowser \
+wayland-devel \
+polkit 
+
 # hij maakt de mappen aan van de progs die gebruikt worden
 # Verder maakt hij links aan
 
