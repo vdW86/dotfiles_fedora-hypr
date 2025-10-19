@@ -1,0 +1,48 @@
+$wlogout: This is a logout menu that allows for shutdown, reboot and sleep
+$mako: This is a graphical notification daemon
+$python-requests: needed for the weather module script to execute
+$swappy: This is a screenshot editor tool
+$pamixer: This helps with audio settings such as volume
+$lxappearance: used to set GTK theme
+$xfce4-settings: set of tools for xfce, needed to set GTK theme
+# Hierboven zijn geinstalleerd
+
+# Deze moet ik zelf compilen
+####swaylock-effects: This allows for the locking of the desktop its a fork that adds some editional visual effects
+
+@@@@@@@@@@@@@####bluez-utils: command line utilities to interact with bluettoth devices
+@@@@@@@@@@@@@###polkit-gnome
+@@@@@@@@@@@@@####noto-fonts-emoji: fonts needed by the weather script in the top bar
+@@@@@@@@@@@@@####dracula-gtk-theme: the Dracula theme, it fits the overall look and feel
+@@@@@@@@@@@@@####noto-fonts-emoji:
+@@@@@@@@@@@@@####dracula-icons-git" set of icons to go with the Dracula theme
+@@@@@@@@@@@@@####starship: allows to customize the shell prompt
+
+
+
+# Vervangers :
+polkit-gnome == >  lxqt-policykit needed to get superuser access on some graphical appliaction
+bluez-utils == > meeste zit in bluez, voor bluetoothmanager = blueman
+noto-fonts-emoji ==> google-noto-emoji-fonts & google-noto-color-emoji-fonts
+dracula-icons-git en theme  ==> Staat nu in dotfiles/config/themes
+starship ==> curl -sS https://starship.rs/install.sh | sh
+bij startship moet je nog het volgende doen :
+eval "$(starship init zsh)"   # voor Zsh
+# of
+eval "$(starship init bash)"  # voor Bash
+
+
+# Deze waren al geinstalleerd
+hyprland: This is the Hyprland compositor
+kitty: This is the default terminal
+waybar: Waybar now has hyprland support
+swaybg: This is used to set a desktop background image
+wofi: This is an application launcher menu
+thunar: This is a graphical file manager
+ttf-jetbrains-mono-nerd: Som nerd fonts for icons and overall look
+grim: This is a screenshot tool it grabs images from a Wayland compositor
+slurp: This helps with screenshots, it selects a region in a Wayland compositor
+brightnessctl: used to control monitor bright level
+gvfs: adds missing functionality to thunar such as automount usb drives
+bluez: the bluetooth service
+xdg-desktop-portal-hyprland: xdg-desktop-portal backend for hyprland
