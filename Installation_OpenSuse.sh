@@ -1,10 +1,10 @@
 # Dit is een basis installatie script
 # Installatie van alle progs
-sudo dnf install alacritty foot \
+sudo zypper install alacritty foot \
 cabextract 7zip p7zip-plugins \
 dunst \
 wl-clipboard qalculate featherpad geany zathura \
-swaylock swayidle fuzzel \
+swaylock swayidle swaybg fuzzel \
 fira-code-fonts jetbrains-mono-fonts papirus-icon-theme papirus-folders \
 thunar-archive-plugin thunar-media-tags-plugin \
 fastfetch speedtest-cli \
@@ -52,3 +52,6 @@ cat >> ~/.bash_profile <<EOF
 # Source custom Hyprland autostart
 [ -f "$HOME/dotfiles/bash/bash_profile.sh" ] && source "$HOME/dotfiles/bash/bash_profile.sh"
 EOF
+
+# Aanmaken van alle $USER folders
+xdg-user-dirs-update
