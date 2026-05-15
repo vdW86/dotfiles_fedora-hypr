@@ -8,7 +8,7 @@ swaylock swayidle swaybg fuzzel \
 fira-code-fonts jetbrains-mono-fonts papirus-icon-theme papirus-folders \
 thunar-archive-plugin thunar-media-tags-plugin \
 fastfetch speedtest-cli \
-vlc gimp\
+vlc gimp imv \
 qutebrowser \
 xdg-user-dirs \
 keepassxc \
